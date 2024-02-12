@@ -1,0 +1,85 @@
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dev{
+    color: #FFF;
+    font-family: "Hammersmith One";
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 6%;
+    text-decoration: none;
+}
+.number{
+    margin-bottom: 10%;
+}
+.active {
+    color:#FFF;
+
+}
+.non-active {
+    color: #B5B5B5;
+
+}
+a.nom{
+    font-family: 'Lato';
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    align-items: center;
+}
+
+.nom img{
+    height: 3px;
+    width: 40px;
+}
+.proman{
+    padding-right: 70px;
+}
+.prowoman{
+    padding-right: 70px;
+}
+
+.secondhalf{
+    width: 35%;
+    height: 685px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    background-color: #323232;
+}
+.info, .info1{
+    background-color: #434343;
+    padding: 0px 15px;
+    height: 150px;
+}
+.info p{
+    color: #F16529;
+    padding-top: 15px;
+}
+.info1 p{
+    color: #83CD29;
+    padding-top: 15px;
+}
+.githuman{
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    padding-top: 10px;
+}
+.gitman, .gitwoman{
+    width: 45%;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gitman img,.gitwoman img{
+    height: 11px;
+}
+.color{
+    color: #B5B5B5;
+    text-decoration: none;
+}

@@ -1,0 +1,78 @@
+section{
+    width: 50%;
+    background-color: #323232;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background-color: #4c4b4b;
+    width: 500px;
+    height: 35px;
+    border: none;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+    color: #FFF;
+}
+input::placeholder{
+    color: #FFF;
+    padding-left: 10px;
+}
+.message{
+    color: #FFF;
+    font-family: "Hammersmith One";
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 8%;
+}
+textarea{
+    background-color: #4c4b4b;
+    width: 500px;
+    height: 300px;
+    border: none;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea:focus{
+    outline: none;
+    color: #FFF;
+    padding-top: 10px ;
+}
+textarea::placeholder{
+    color: #FFF;
+    padding-top: 10px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #FFF;
+    color: #292727;
+    text-align: center;
+    padding-top: 7px;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #4c4b4b;
+  }
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+.validation-error {
+    color: #e74c3c;
+    margin-top: 5px;
+}

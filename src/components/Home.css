@@ -1,0 +1,144 @@
+.name{
+    color: #FFF;
+    font-family: "Hammersmith One";
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.navman{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+}
+.navman1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+}
+.navwoman{
+    width: 40%;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a.links{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+}
+.under{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6%;
+
+}
+.section1{
+    width: 45%;
+    margin-top: 8%;
+    line-height:20px;
+}
+.section2{
+    width: 45%;
+    margin-top: 2%;
+}
+.fuller{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+    border-radius: 2px;
+    width: 41%;
+    background-color: #FFF;
+    color: #F16529;
+    font-family: "Hammersmith One";
+    font-size: 22px;
+    font-weight: 400;
+}
+.fullname{
+    color: #FFF;
+    font-family: "Hammersmith One";
+    font-size: 65px;
+    font-weight: 400;
+}
+.section2 img{
+    width: 100%;
+    background: url(<path-to-image>), rgb(36, 35, 35) 50%/ cover no-repeat;
+    border-radius: 100%;
+}
+.sectionpara{
+    color: #B5B5B5;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.stack{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.avatar{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    align-items: center;
+}
+.avatar1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar img{
+    width: 16%;
+}
+.email{
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    align-items: center;
+}
+.email img{
+    height: 27%
+}
+a.button{
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.github{
+    width: 30%;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+}
+.github img{
+    height: 27%;
+}
+@keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .name {
+    animation: moveText 2s infinite; /* 2s duration, infinite loop */
+  }
