@@ -16,16 +16,17 @@ const Project = () => {
 
   return (
    <>
-        <div className="navman1">
+   <div className="bodyman">
+   <div className="navman1">
         <a className="name" href="/">Mentor Jnr.</a>
        
 
         </div>
-        <div className="under">
+        <div className="under1">
             <div className="section1">
                 <h1 className="fuller">Full Stack Developer</h1>
                 <h1 className="fullname">Dev. Mentor Jnr.</h1>
-                <p className='sectionpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pha tortor consequat nibh gravida id sit. Quis eget diam ut proin. At nisl diam urna sit. Tortor nibh ornare vestibulum amet dis eros dolor eget. Orci in enim sit luctus lacus arcu.</p>
+                <p className='sectionpara'>Welcome to my portfolio! As a front-end web developer, I specialize in creating dynamic, user-friendly websites and applications. From front-end design to back-end functionality, I'm passionate about delivering high-quality solutions that exceed client expectations. Let's collaborate and bring your vision to life!</p>
                 <div className="number">
           <NavLink to="/project" className={`nom ${pathname === '/project' ? 'active' : 'non-active'}`}>
             <p>01</p>
@@ -40,26 +41,10 @@ const Project = () => {
           <NavLink to="/contact" className={`nom ${pathname === '/contact' ? 'active' : 'non-active'}`}>
             <p>03</p>
             <img src={img1} alt="" />
-            <p className='prowoman'>Contact</p>
+            <p className='prowoman'>Contact</p>  
           </NavLink>
         </div>
-        <div className="avatar1">
-            <img src={img8} alt="" />
-            <div className="email">
-                <a href="mailto:adegokeoyesanya305@gmail.com?subject=Subject%20Here&body=Write%20your%20message%20here" target='blank' className="button">
-                <img src={img9} alt="" />
-                <p>Email Me</p>
-                <img src={img10} alt="" />
-                </a>
-            </div>
-            <div className="github">
-                <a href="https://github.com/fiyinfoluwa17" target='blank' className="button">
-                <img src={img11} alt="" />
-                <p>Github</p>
-                <img src={img10} alt="" />
-                </a>
-            </div>
-        </div>
+       
                
             </div>
             <div className="secondhalf">
@@ -201,7 +186,26 @@ const Project = () => {
               </div>
           
         </div>
+        <div className="avatar1">
+            <img src={img8} alt="" />
+            <div className="email">
+                <a href="mailto:adegokeoyesanya305@gmail.com?subject=Subject%20Here&body=Write%20your%20message%20here" target='blank' className="button">
+                <img src={img9} alt="" />
+                <p>Email Me</p>
+                <img src={img10} alt="" />
+                </a>
+            </div>
+            <div className="github">
+                <a href="https://github.com/fiyinfoluwa17" target='blank' className="button">
+                <img src={img11} alt="" />
+                <p>Github</p>
+                <img src={img10} alt="" />
+                </a>
+            </div>
         </div>
+        </div>
+   </div>
+        
        
    </>
   )

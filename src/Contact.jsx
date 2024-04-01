@@ -66,11 +66,11 @@ const Contact = () => {
             <div className="navman1">
                 <a className="name" href="/">Mentor Jnr.</a>
             </div>
-            <div className="under">
+            <div className="under1">
                 <div className="section1">
                     <h1 className="fuller">Full Stack Developer</h1>
                     <h1 className="fullname">Dev. Mentor Jnr.</h1>
-                    <p className='sectionpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pha tortor consequat nibh gravida id sit. Quis eget diam ut proin. At nisl diam urna sit. Tortor nibh ornare vestibulum amet dis eros dolor eget. Orci in enim sit luctus lacus arcu.</p>
+                    <p className='sectionpara'>Welcome to my portfolio! As a front-end web developer, I specialize in creating dynamic, user-friendly websites and applications. From front-end design to back-end functionality, I'm passionate about delivering high-quality solutions that exceed client expectations. Let's collaborate and bring your vision to life!</p>
                     <div className="number">
                         <NavLink to="/project" className={`nom ${pathname === '/project' ? 'active' : 'non-active'}`}>
                             <p>01</p>

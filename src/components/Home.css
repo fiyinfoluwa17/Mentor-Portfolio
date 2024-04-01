@@ -6,11 +6,16 @@
     text-decoration: none;
     padding-top: 15px;
 }
+.bodyman{
+    background-color: #292727;
+    height: 100vh;
+}
 .navman{
     width: 80%;
     display: flex;
     justify-content: space-between;
     padding-left: 6%;
+    align-items: center;
 }
 .navman1{
     width: 50%;
@@ -36,6 +41,7 @@ a.links{
     width: 85%;
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     padding-left: 6%;
 
 }
@@ -83,21 +89,23 @@ a.links{
     display: flex;
     justify-content: space-between;
 }
+.avatar1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .avatar{
     width: 30%;
     display: flex;
     justify-content: space-between;
-    margin-left: 6%;
-    align-items: center;
-}
-.avatar1{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    /* margin-left: 6%; */
     align-items: center;
 }
 .avatar img{
     width: 16%;
+    transition: transform 0.3s ease-in-out;
+
 }
 .email{
     width: 31%;
@@ -106,8 +114,16 @@ a.links{
     color: #FFF;
     align-items: center;
 }
+.stack img:hover {
+    transform: scale(1.05);
+
+}
+
 .email img{
     height: 27%
+}
+.icon{
+    display: none;
 }
 a.button{
     color: #FFF;
@@ -119,7 +135,7 @@ a.button{
 }
 .github{
     width: 30%;
-    display: flex;
+    display: flex;  
     color: #FFF;
     justify-content: space-between;
     align-items: center;
@@ -127,12 +143,25 @@ a.button{
 .github img{
     height: 27%;
 }
+.rotating-icon {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 @keyframes moveText {
     0% {
       transform: translateX(0);
     }
     50% {
-      transform: translateX(100px);
+      transform: translateX(50px);
     }
     100% {
       transform: translateX(0);
@@ -140,5 +169,50 @@ a.button{
   }
 
   .name {
-    animation: moveText 2s infinite; /* 2s duration, infinite loop */
+    animation: moveText 2s infinite;
+  }
+  @media screen and (max-width: 428px) {
+
+    .bodyman{
+        background-color: #292727;
+        height: auto;
+    }
+    .under{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .icon{
+        display: block;
+        height: 10% !important;
+        margin-top: 6%;
+    }
+    
+    .navwoman{
+        display: none;
+    }
+    .section2 img{
+        width: 200%;
+        margin-left: 10%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .fuller{
+        width: 100%;
+    }
+    .stack{
+        width: 100%;
+    }
+    .avatar{
+        width: 100%;
+        margin-top: 15%;
+    }
+    .fullname{
+        line-height: 60px;
+    }
   }
