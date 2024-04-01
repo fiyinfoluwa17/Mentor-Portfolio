@@ -1,7 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  css: {
+    modules: {},
+    // This allows importing CSS from node_modules
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "bootstrap/dist/css/bootstrap.min.css";`
+      }
+    }
+  }
+});
