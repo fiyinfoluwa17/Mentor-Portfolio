@@ -8,7 +8,6 @@
     font-family: "Hammersmith One";
     font-size: 35px;
     font-weight: 400;
-    padding-left: 6%;
     text-decoration: none;
 }
 .number{
@@ -26,7 +25,6 @@
     width: 85%;
     display: flex;
     justify-content: space-between;
-    padding-left: 6%;
 
 }
 a.nom{
@@ -50,17 +48,24 @@ a.nom{
 }
 
 .secondhalf{
-    width: 35%;
-    height: 685px;
+    width: 40%;
+    height: 680px;
     color: #FFF;
     display: flex;
     justify-content: space-around;
     background-color: #323232;
 }
+.repo1, .repo2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .info, .info1{
     background-color: #434343;
     padding: 0px 15px;
-    height: 150px;
+    height: 160px;
 }
 .info p{
     color: #F16529;
@@ -101,4 +106,18 @@ a.nom{
         width: 100%;
         padding: 0;
     }
+    .secondhalf{
+        width: 100%;
+    }
+    .info p, .info1 p{
+        font-size: 12px;
+    }
+    .githuman{
+        padding-top: 20px;
+    }
+    .gitman, .gitwoman{
+        font-size: 11px;
+    }
+   
+    
 }

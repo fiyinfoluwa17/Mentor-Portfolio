@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import "./components/Project.css"
 import './components/Home.css'
 import img1 from "./images/Vector 1.png"
-import img8 from "./images/Ellipse 2.png"
+import img8 from "./images/IMG_0623.png"
 import img9 from "./images/Group 11.png"
 import img10 from "./images/Vector (2).png"
 import img11 from "./images/Vector (3).png"
@@ -17,7 +17,8 @@ const Project = () => {
   return (
    <>
    <div className="bodyman">
-   <div className="navman1">
+    <div className="werey container">
+    <div className="navman1">
         <a className="name" href="/">Mentor Jnr.</a>
        
 
@@ -43,6 +44,23 @@ const Project = () => {
             <img src={img1} alt="" />
             <p className='prowoman'>Contact</p>  
           </NavLink>
+        </div>
+        <div className="avatar1">
+            <img src={img8} alt="" />
+            <div className="email">
+                <a href="mailto:adegokeoyesanya305@gmail.com?subject=Subject%20Here&body=Write%20your%20message%20here" target='blank' className="button">
+                <img src={img9} alt="" />
+                <p className="mt-3">Email Me</p>
+                <img src={img10} alt="" />
+                </a>
+            </div>
+            <div className="github">
+                <a href="https://github.com/fiyinfoluwa17" target='blank' className="button">
+                <img src={img11} alt="" />
+                <p className="mt-3">Github</p>
+                <img src={img10} alt="" />
+                </a>
+            </div>
         </div>
        
                
@@ -186,24 +204,8 @@ const Project = () => {
               </div>
           
         </div>
-        <div className="avatar1">
-            <img src={img8} alt="" />
-            <div className="email">
-                <a href="mailto:adegokeoyesanya305@gmail.com?subject=Subject%20Here&body=Write%20your%20message%20here" target='blank' className="button">
-                <img src={img9} alt="" />
-                <p>Email Me</p>
-                <img src={img10} alt="" />
-                </a>
-            </div>
-            <div className="github">
-                <a href="https://github.com/fiyinfoluwa17" target='blank' className="button">
-                <img src={img11} alt="" />
-                <p>Github</p>
-                <img src={img10} alt="" />
-                </a>
-            </div>
         </div>
-        </div>
+    </div>
    </div>
         
        

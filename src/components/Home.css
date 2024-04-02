@@ -11,7 +11,7 @@
     height: 100vh;
 }
 .navman{
-    width: 80%;
+    width: 80%; 
     display: flex;
     justify-content: space-between;
     padding-left: 6%;
@@ -21,7 +21,6 @@
     width: 50%;
     display: flex;
     justify-content: space-between;
-    padding-left: 6%;
 }
 .navwoman{
     width: 40%;
@@ -38,7 +37,7 @@ a.links{
     font-weight: 400;
 }
 .under{
-    width: 85%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -90,7 +89,7 @@ a.links{
     justify-content: space-between;
 }
 .avatar1{
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,6 +102,11 @@ a.links{
     align-items: center;
 }
 .avatar img{
+    width: 16%;
+    transition: transform 0.3s ease-in-out;
+
+}
+.avatar1 img{
     width: 16%;
     transition: transform 0.3s ease-in-out;
 
@@ -208,7 +212,7 @@ a.button{
     .stack{
         width: 100%;
     }
-    .avatar{
+    .avatar, .avatar1{
         width: 100%;
         margin-top: 15%;
     }

@@ -63,6 +63,9 @@ const Contact = () => {
   const handleShow = () => setShow(true);
     return (
         <>
+        <div className="bodyman">
+        <div className="werey container">
+
             <div className="navman1">
                 <a className="name" href="/">Mentor Jnr.</a>
             </div>
@@ -154,6 +157,8 @@ const Contact = () => {
                 </section>
             </div>
             <ToastContainer />
+            </div>
+            </div>
         </>
     );
 }
