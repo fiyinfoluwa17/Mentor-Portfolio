@@ -67,6 +67,7 @@ button{
 }
 button:hover {
     background-color: #4c4b4b;
+    color: #FFF;
   }
   button:disabled {
     background-color: #bdc3c7;
@@ -75,4 +76,16 @@ button:hover {
 .validation-error {
     color: #e74c3c;
     margin-top: 5px;
+}
+@media screen and (max-width: 428px) {
+    section{
+        width: 100%;
+        margin-top: 5%;
+    }
+    input{
+        width: 95%;
+    }
+    textarea{
+        width: 95%;
+    }
 }
