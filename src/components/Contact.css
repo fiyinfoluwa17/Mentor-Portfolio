@@ -10,7 +10,7 @@ form{
 }
 input{
     background-color: #4c4b4b;
-    width: 500px;
+    width: 90%;
     height: 35px;
     border: none;
     margin-bottom: 25px;
@@ -33,7 +33,7 @@ input::placeholder{
 }
 textarea{
     background-color: #4c4b4b;
-    width: 500px;
+    width: 90%;
     height: 300px;
     border: none;
     margin-bottom: 25px;
@@ -81,6 +81,7 @@ button:hover {
     section{
         width: 100%;
         margin-top: 5%;
+        padding-bottom: 5%;
     }
     input{
         width: 95%;
